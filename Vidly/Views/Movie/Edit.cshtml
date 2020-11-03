@@ -1,0 +1,16 @@
+﻿@model Vidly.ViewModels.ManageMoviesViewModel
+
+@{
+    ViewBag.Title = "Manage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Edit @Model.movie.name's Details</h2>
+
+
+
+@Html.Partial("MovieForm")
+
+
+
